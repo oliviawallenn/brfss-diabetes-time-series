@@ -95,6 +95,22 @@ observations.
 
 ---
 
+## Visualizations
+
+**Figure 1** — Predicted prevalence over time by age group (Model 4)
+
+![Figure 1](outputs/figure1_predicted_by_age.png)
+
+**Figure 2** — Weighted diabetes prevalence stratified by sex and age group, 2013–2023
+
+![Figure 2](outputs/figure2_prevalence_by_sex_age.png)
+
+**Figure 3** — Predicted prevalence over time by U.S. region (Model 4)
+
+![Figure 3](outputs/figure3_predicted_by_region.png)
+
+---
+
 ## Author
 
 **Olivia Wallen**  
