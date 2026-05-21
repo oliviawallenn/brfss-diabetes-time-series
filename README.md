@@ -83,18 +83,6 @@ observations.
 
 ---
 
-## How to reproduce
-
-1. Download BRFSS SAS transport files for years 2013–2023 from the CDC 
-   (see `/data/data_source.md`)
-2. Update the file path macro variable at the top of 
-   `brfss_cleaning_macro.sas`
-3. Run `brfss_cleaning_macro.sas` to process and stack all annual datasets
-4. Run `brfss_analysis.sas` to generate weighted prevalence estimates, 
-   regression models, and figures
-
----
-
 ## Visualizations
 
 **Figure 1** — Predicted prevalence over time by age group (Model 4)
@@ -108,6 +96,18 @@ observations.
 **Figure 3** — Predicted prevalence over time by U.S. region (Model 4)
 
 ![Figure 3](outputs/figure3_predicted_by_region.png)
+
+---
+
+## How to reproduce
+
+1. Download BRFSS SAS transport files for years 2013–2023 from the CDC 
+   (see `/data/data_source.md`)
+2. Update the file path macro variable at the top of 
+   `brfss_cleaning_macro.sas`
+3. Run `brfss_cleaning_macro.sas` to process and stack all annual datasets
+4. Run `brfss_analysis.sas` to generate weighted prevalence estimates, 
+   regression models, and figures
 
 ---
 
