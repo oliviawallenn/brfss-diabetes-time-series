@@ -83,4 +83,20 @@ observations.
 
 ---
 
-## Repository structure
+## How to reproduce
+
+1. Download BRFSS SAS transport files for years 2013–2023 from the CDC 
+   (see `/data/data_source.md`)
+2. Update the file path macro variable at the top of 
+   `brfss_cleaning_macro.sas`
+3. Run `brfss_cleaning_macro.sas` to process and stack all annual datasets
+4. Run `brfss_analysis.sas` to generate weighted prevalence estimates, 
+   regression models, and figures
+
+---
+
+## Author
+
+**Olivia Wallen**  
+MS, Nutrition Epidemiology and Data Science · Tufts University (2026)  
+[LinkedIn](https://www.linkedin.com/in/olivia-wallen/) · [Email](mailto:oliviawallenn@gmail.com)
