@@ -10,7 +10,7 @@ The analytic dataset was created by harmonizing variables across survey years du
 
 # Key Variables
 
-| Variable Name | Source Variable(s) | Description | Recoding / Notes |
+| Variable Name | Original Name | Description | Recoding / Notes |
 |---|---|---|---|
 | `year` | Survey year | BRFSS survey year | Added during import loop |
 | `diabetes_code` | `DIABETE3`, `DIABETE4` | Self-reported diabetes status | Harmonized across years |
@@ -92,6 +92,24 @@ Weighted prevalence estimates and 95% confidence intervals were calculated using
 ```sas
 PROC SURVEYFREQ
 ```
+
+---
+
+## Regional groupings
+
+| Region | States included |
+|---|---|
+| Northeast | ME, NH, VT, MA, RI, CT, NY, NJ, PA |
+| Southeast | MD, DE, WV, VA, NC, SC, GA, FL, TN, KY, AL, MS, AR, LA |
+| Midwest | OH, MI, IN, WI, IL, MN, IA, MO, ND, SD, NE, KS |
+| Southwest | TX, OK, NM, AZ |
+| West | CO, WY, MT, ID, UT, NV, CA, OR, WA, AK, HI |
+
+## Exclusions
+
+- Respondents with missing or refused diabetes status
+- Gestational diabetes (coded separately in BRFSS)
+- Respondents with missing age, sex, or state variables
 
 ---
 
