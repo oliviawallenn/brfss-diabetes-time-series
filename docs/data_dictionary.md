@@ -79,6 +79,18 @@ The original BRFSS `_AGE_G` variable was collapsed into broader analytic categor
 
 ---
 
+## Regional groupings
+
+| Region | States included |
+|---|---|
+| Northeast | ME, NH, VT, MA, RI, CT, NY, NJ, PA |
+| Southeast | MD, DE, WV, VA, NC, SC, GA, FL, TN, KY, AL, MS, AR, LA |
+| Midwest | OH, MI, IN, WI, IL, MN, IA, MO, ND, SD, NE, KS |
+| Southwest | TX, OK, NM, AZ |
+| West | CO, WY, MT, ID, UT, NV, CA, OR, WA, AK, HI |
+
+---
+
 # Survey Weighting
 
 All prevalence estimates were generated using BRFSS complex survey design variables:
@@ -95,15 +107,6 @@ PROC SURVEYFREQ
 
 ---
 
-## Regional groupings
-
-| Region | States included |
-|---|---|
-| Northeast | ME, NH, VT, MA, RI, CT, NY, NJ, PA |
-| Southeast | MD, DE, WV, VA, NC, SC, GA, FL, TN, KY, AL, MS, AR, LA |
-| Midwest | OH, MI, IN, WI, IL, MN, IA, MO, ND, SD, NE, KS |
-| Southwest | TX, OK, NM, AZ |
-| West | CO, WY, MT, ID, UT, NV, CA, OR, WA, AK, HI |
 
 ## Exclusions
 
